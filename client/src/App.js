@@ -16,7 +16,8 @@ import Login from './components/Login';
         <Header />
         <NavBar /> {/* Include the NavBar component */}
         <Switch>
-          {/* Define your routes */}
+        <Route path="/home" component={Home} /> {/* Define the /home route */}
+        <Route path="/login" component={Login} /> {/* Route to the Login component */}
         </Switch>
       </div>
     </Router>
